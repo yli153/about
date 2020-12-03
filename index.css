@@ -1,0 +1,131 @@
+/* Put your style information here! */
+
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+main {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    margin: 0 0;
+    background-color: white;
+    overflow-x: hidden;
+    height: auto;
+}
+
+a {
+    color: grey !important;
+}
+
+h2 {
+    display: inline;
+}
+
+.navbar {
+    padding-top: 1.2vw !important;
+    padding-bottom: 1.2vw !important;
+    background-color: white;
+}
+
+.nav-link {
+    color:rgba(0, 0, 0, 0.6) !important;
+}
+
+.fwh-slide {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.avatar {
+    width: 50%;
+    height: auto;
+}
+
+.half-highlight-1 {
+    background: linear-gradient(to top, #ffe1d0 50%, transparent 50%);
+}
+
+.half-highlight-2 {
+    background: linear-gradient(to top, #fef6dd 50%, transparent 50%);
+}
+
+.half-highlight-3 {
+    background: linear-gradient(to top, #dcf3d0 50%, transparent 50%);
+}
+.half-highlight-4 {
+    background: linear-gradient(to top, #b5e9e9 50%, transparent 50%);
+}
+
+.header {
+    padding-top: 5vh !important;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+}
+
+.row {
+    display: flex;
+    align-items:center;
+    margin-bottom: 15vh;
+  }
+
+.footer {
+    background-color: rgba(255, 225, 208, 0.3);
+    padding-top: 2vh;
+    padding-bottom: 2vh; 
+}
+
+.fa {
+    font-size: 2vw !important;
+}
+
+.emojis {
+    font-size: 2.5vw;
+}
+
+.emojis2{
+    font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header {
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+
+    .fa {
+        font-size: 20px !important;
+    }
+
+    .emojis {
+        font-size: 20px;
+    }
+
+    .emojis2{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+  }
+
+
