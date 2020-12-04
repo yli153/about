@@ -46,6 +46,18 @@ h2 {
     color:rgba(0, 0, 0, 0.6) !important;
 }
 
+.active a {
+    color: #6131ff !important;
+}
+
+.header-link:hover {
+    color: #6131ff !important;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
 .fwh-slide {
     height: 100vh;
     box-sizing: border-box;
